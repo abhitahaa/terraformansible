@@ -1,0 +1,15 @@
+
+[webservers]
+
+[loadbalancers]
+
+[ec2]
+ec2-54-221-35-201.compute-1.amazonaws.com ansible_python_interpreter=/usr/bin/python3
+ec2-34-224-221-55.compute-1.amazonaws.com ansible_python_interpreter=/usr/bin/python3
+
+[ec2:vars]
+ansible_ssh_private_key_file=~/Downloads/ansible.pem
+ansible_user=ec2-user
+
+
+
